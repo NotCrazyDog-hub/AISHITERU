@@ -19,7 +19,7 @@ tampa.addEventListener("mousedown", (e) => {
 
   setTimeout(() => {
     document.title = "Uma surpresinha para ocê!";
-    titulo.style.color = "rgb(255, 224, 156";
+    titulo.style.color = "#FFE09C";
     titulo.textContent = "Eu realmente achei que nunca ia sair!";
     corpo.src = "assets/cachorrinho.png";
     document.getElementById("latido").play();
