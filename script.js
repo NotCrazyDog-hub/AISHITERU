@@ -1,6 +1,7 @@
 const corpo = document.getElementById("corpo-do-presente");
 const tampa = document.getElementById("tampa-do-presente");
 const titulo = document.getElementById("titulo");
+const link = document.getElementById("link-para-carta");
 
 let isDragging = false;
 let offsetX, offsetY;
@@ -33,6 +34,7 @@ tampa.addEventListener("mousedown", (e) => {
   setTimeout(() => {
     titulo.textContent = "Você pode abrir minha cartinha?";
     document.getElementById("latido").play();
+    link.style.pointerEvents = "auto";
   }, 15000);
 });
 
