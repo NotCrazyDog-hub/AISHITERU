@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f0e6; /* tom de papel */
+    background-image: url("https://wallpaper.forfun.com/fetch/cb/cba8393f5601cb7085639198f24fc446.jpeg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,8 @@ body {
     font-family: 'Georgia', 'Times New Roman', serif;
   }
   
-  .carta {
+  #carta {
+    display: flex;
     background-color: #fffdf8;
     padding: 40px;
     width: 90%;
@@ -21,6 +22,10 @@ body {
     color: #333;
     font-family: 'Dancing Script', cursive;
   }
+
+  #memorias {
+
+  }
   
   .assinatura {
     text-align: right;
@@ -28,4 +33,3 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 22px;
   }
-  
